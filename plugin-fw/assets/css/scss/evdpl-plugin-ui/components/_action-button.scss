@@ -1,0 +1,80 @@
+.evdpl-plugin-ui .evdpl-plugin-fw__action-button, .evdpl-plugin-fw__action-button {
+  height: 35px;
+  width: 35px;
+  background-color: var(--evdpl-content-bg);
+  display: inline-block;
+  border: 0;
+  border-radius: 50%;
+  transition: .3s;
+  cursor: pointer;
+  box-shadow: 0 2px 7px rgba(170, 198, 222, .5);
+  outline: none;
+  position: relative;
+  margin: 0 5px 5px 0;
+  vertical-align: middle;
+
+  .evdpl-plugin-fw__action-button__link {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .evdpl-plugin-fw__action-button__icon {
+    position: absolute;
+    color: var(--evdpl-link);
+    font-size: 17px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  &.evdpl-plugin-fw__action-button--trash-action .evdpl-plugin-fw__action-button__icon,
+  &.evdpl-plugin-fw__action-button--delete-action .evdpl-plugin-fw__action-button__icon {
+    color: #a10000;
+  }
+
+  .evdpl-plugin-fw__action-button__menu {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    width: max-content;
+    right: 0;
+    margin: 5px 0 0 0;
+    padding: 8px 0;
+    background: var(--evdpl-content-bg);
+    border-radius: 5px;
+    box-shadow: 0 2px 7px rgba(170, 198, 222, .5);
+    z-index: 10;
+    animation: evdpl-plugin-fw-appear-from-top .3s forwards;
+  }
+
+  .evdpl-plugin-fw__action-button__menu__item {
+    margin: 0;
+    display: block;
+    padding: 7px 25px;
+    color: var(--evdpl-content-text);
+    cursor: pointer;
+    text-decoration: none;
+    text-align: right;
+
+    &:hover {
+      color: var(--evdpl-link);
+    }
+  }
+
+  &.evdpl-plugin-fw__action-button--has-menu {
+    .evdpl-plugin-fw__action-button__icon {
+      color: var(--evdpl-content-text);
+    }
+
+    &.evdpl-plugin-fw__action-button--opened {
+      .evdpl-plugin-fw__action-button__icon {
+        color: var(--evdpl-link);
+      }
+
+      .evdpl-plugin-fw__action-button__menu {
+        display: flex;
+      }
+    }
+  }
+}

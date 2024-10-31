@@ -1,0 +1,56 @@
+/**
+ * EVDPL Plugin UI - Post Type Style
+ */
+
+@import "mixins/tables";
+
+table.evdpl-plugin-fw__classic-table {
+  @include classic-table;
+
+  &.wp-list-table{
+    @include wp-table-commons;
+  }
+}
+
+table.evdpl-plugin-fw__boxed-table {
+  @include boxed-table;
+
+  &.wp-list-table{
+    @include wp-table-commons;
+  }
+}
+
+// WP List Tables
+.evdpl-plugin-ui--classic-wp-list-style, .evdpl-plugin-ui #plugin-fw-wc .evdpl-plugin-ui--classic-wp-list-style {
+
+  table.wp-list-table {
+    @include classic-table;
+
+    @include wp-table-commons;
+  }
+
+  .tablenav.bottom {
+    display: none;
+
+    .evdpl-plugin-fw__list-table-blank-state {
+      display: flex;
+    }
+  }
+}
+
+.evdpl-plugin-ui--boxed-wp-list-style, .evdpl-plugin-ui #plugin-fw-wc .evdpl-plugin-ui--boxed-wp-list-style {
+
+  table.wp-list-table {
+    @include boxed-table;
+
+    @include wp-table-commons;
+  }
+
+  .tablenav.bottom {
+    display: none;
+
+    .evdpl-plugin-fw__list-table-blank-state {
+      display: flex;
+    }
+  }
+}

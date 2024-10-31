@@ -1,0 +1,203 @@
+@import "../mixins/buttons";
+
+.evdpl-plugin-ui, .wp-core-ui .evdpl-plugin-ui {
+
+  // WordPress Buttons.
+  .button-primary, .button-secondary {
+    border-radius: 3px;
+    text-transform: none;
+    box-shadow: none;
+    border: 1px solid;
+    font-weight: 600;
+    padding: 0 12px;
+    outline: none;
+    height: auto;
+    transition: all ease 0.3s;
+    text-shadow: none;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+
+    &.button-small {
+      padding: 0 8px;
+    }
+  }
+
+  .button-secondary {
+    @include button-secondary;
+  }
+
+  .button-primary {
+    @include button-primary;
+  }
+
+  .button.action,
+  #doaction,
+  #doaction2,
+  #post-query-submit,
+  #search-submit,
+  .button.filter-button {
+    @include button-secondary;
+    height: auto;
+    line-height: 33px;
+    border-radius: 8px;
+    padding: 0 15px;
+    font-weight: 600;
+  }
+
+  .tablenav .tablenav-pages .button,
+  .tablenav .tablenav-pages .tablenav-pages-navspan {
+    @include button-secondary;
+  }
+
+  @media screen and (max-width: 782px) {
+    .tablenav .tablenav-pages .button, .tablenav .tablenav-pages .tablenav-pages-navspan {
+      min-width: 44px;
+      padding: 12px 8px;
+      font-size: 18px;
+      line-height: 1;
+    }
+  }
+
+  // EVDPL Buttons.
+  .evdpl-plugin-fw__button, [class^="evdpl-plugin-fw__button--"], [class*=" evdpl-plugin-fw__button--"],
+  .evdpl-add-button, .evdpl-edit-button, .evdpl-update-button, .evdpl-remove-button, .evdpl-plugin-fw-upload-button, .evdpl-save-button, .evdpl-plugin-fw-select-all, .evdpl-plugin-fw-deselect-all, .evdpl-plugin-fw-upload-button-reset // Old buttons.
+  {
+    @include button;
+  }
+
+  .evdpl-plugin-fw__button--primary {
+    @include button-primary;
+  }
+
+  .evdpl-plugin-fw__button--secondary {
+    @include button-secondary;
+  }
+
+  .evdpl-plugin-fw__button--delete {
+    @include button-delete;
+  }
+
+  .evdpl-plugin-fw__button--add, .evdpl-add-button {
+    @include button-primary;
+
+    @include button-with-icon("\e90a");
+
+    &.closed {
+      @include button-secondary;
+
+      @include button-with-icon("\e906");
+    }
+  }
+
+  .evdpl-plugin-fw__button--close {
+    @include button-secondary;
+
+    @include button-with-icon("\e906");
+  }
+
+  .evdpl-plugin-fw__button--edit, .evdpl-edit-button {
+    @include button-secondary;
+
+    @include button-with-icon("\e907");
+  }
+
+  .evdpl-plugin-fw__button--update, .evdpl-update-button {
+    @include button-update;
+
+    @include button-with-icon("\e90b");
+  }
+
+  .evdpl-plugin-fw__button--trash, .evdpl-remove-button {
+    @include button-delete;
+
+    @include button-with-icon("\e90d");
+  }
+
+  .evdpl-plugin-fw__button--upload, .evdpl-plugin-fw-upload-button {
+    @include button-primary;
+
+    @include button-with-icon("\e90c");
+  }
+
+  // Old buttons.
+  .evdpl-save-button {
+    @include button-primary;
+  }
+
+  .evdpl-plugin-fw-select-all,
+  .evdpl-plugin-fw-deselect-all,
+  .evdpl-plugin-fw-upload-button-reset {
+    @include button-secondary;
+  }
+
+  // with icons.
+  .button-secondary span.evdpl-icon {
+    margin-left: 0;
+    margin-right: 10px;
+    line-height: normal;
+
+    &:before {
+      color: inherit;
+      font-size: 15px;
+      font-weight: 400;
+    }
+  }
+
+  // With icon
+  .evdpl-plugin-fw__button--with-icon {
+    position: relative;
+    padding-left: 30px;
+
+    i {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      font-size: 1.15em;
+      font-weight: 400;
+    }
+  }
+
+
+  // Button Sizes
+  .evdpl-plugin-fw__button--xl, .button-xl {
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: 38px;
+
+    &::before {
+      margin: 0 10px 0 -5px;
+    }
+
+    &.evdpl-plugin-fw__button--with-icon {
+      padding-left: 40px;
+      i {
+        left: 14px;
+      }
+    }
+  }
+
+  .evdpl-plugin-fw__button--xxl {
+    padding: 0 28px;
+    font-size: 16px;
+    line-height: 45px;
+
+    &::before {
+      margin: 0 15px 0 -10px;
+    }
+
+    &.evdpl-plugin-fw__button--with-icon {
+      padding-left: 45px;
+      i {
+        left: 15px;
+      }
+    }
+  }
+}
+

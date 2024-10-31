@@ -1,0 +1,14 @@
+
+.evdpl-plugin-fw__boxed-row, .evdpl-plugin-fw__boxed-row--hover-highlight {
+  background: var(--evdpl-content-bg);
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px var(--evdpl-light-border-color), 0 3px 11px 6px var(--evdpl-light-shadow);
+  transition: background-color .2s ease-in-out;
+  padding: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.evdpl-plugin-fw__boxed-row--hover-highlight:hover {
+  background: var(--evdpl-table-row-highlight);
+}

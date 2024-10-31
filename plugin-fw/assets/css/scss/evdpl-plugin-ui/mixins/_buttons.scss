@@ -1,0 +1,104 @@
+@mixin button {
+  display: inline-block;
+  height: auto;
+  line-height: 30px;
+  border-radius: 4px;
+  padding: 0 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+@mixin button-primary {
+  background: var(--evdpl-primary);
+  color: var(--evdpl-primary-text);
+  border: 1px solid var(--evdpl-primary);
+
+  &:focus {
+    background: var(--evdpl-primary);
+    color: var(--evdpl-primary-text);
+    border: 1px solid var(--evdpl-primary);
+    box-shadow: 0 0 0 3px var(--evdpl-primary-focus);
+  }
+
+  &:hover, &:active {
+    background: var(--evdpl-primary-hover);
+    color: var(--evdpl-primary-text);
+    border: 1px solid var(--evdpl-primary-hover);
+  }
+}
+
+@mixin button-secondary {
+  background: var(--evdpl-outline-bg);
+  border: 1px solid var(--evdpl-outline-border);
+  color: var(--evdpl-outline-text);
+
+  &:focus {
+    background: var(--evdpl-outline-bg);
+    border: 1px solid var(--evdpl-outline-border);
+    color: var(--evdpl-outline-text);
+    box-shadow: 0 0 0 3px var(--evdpl-outline-focus);
+  }
+
+  &:hover, &:active {
+    background: var(--evdpl-outline-bg-hover);
+    border-color: var(--evdpl-outline-border-hover);
+    color: var(--evdpl-outline-text);
+  }
+}
+
+@mixin button-update {
+  background: var(--evdpl-update);
+  color: var(--evdpl-update-text);
+  border: 1px solid var(--evdpl-update);
+
+  &:focus {
+    background: var(--evdpl-update);
+    color: var(--evdpl-update-text);
+    border: 1px solid var(--evdpl-update);
+    box-shadow: 0 0 0 3px var(--evdpl-update-focus);
+  }
+
+  &:hover, &:active {
+    background: var(--evdpl-update-hover);
+    color: var(--evdpl-update-text);
+    border: 1px solid var(--evdpl-update-hover);
+  }
+}
+
+
+@mixin button-delete {
+  background: var(--evdpl-delete);
+  color: var(--evdpl-delete-text);
+  border: 1px solid var(--evdpl-delete);
+
+  &:focus {
+    background: var(--evdpl-delete);
+    color: var(--evdpl-delete-text);
+    border: 1px solid var(--evdpl-delete);
+    box-shadow: 0 0 0 3px var(--evdpl-delete-focus);
+  }
+
+  &:hover, &:active {
+    background: var(--evdpl-delete-hover);
+    color: var(--evdpl-delete-text);
+    border: 1px solid var(--evdpl-delete-hover);
+  }
+}
+
+@mixin button-with-icon($icon) {
+
+  &:before {
+    font-family: evdpl-icon;
+    content: $icon;
+    margin: 0 8px 0 -5px;
+    font-size: 15px;
+    font-weight: 400;
+    vertical-align: top;
+  }
+}

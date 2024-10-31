@@ -1,0 +1,6 @@
+<wpml-config>
+    <admin-texts>
+        <key name="evdpl_woocompare_button_text" />
+        <key name="evdpl_woocompare_table_text" />
+    </admin-texts>
+</wpml-config>

@@ -1,0 +1,323 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Products Compare for WC\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2020-03-10 11:12:56+00:00\n"
+"PO-Revision-Date: 2018-11-28 16:33+0100\n"
+"Last-Translator: \n"
+"Language-Team: Evincedev <wp-support@evincedev.com>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: includes/class.evdpl-woocompare-admin.php:119
+#: includes/class.evdpl-woocompare-admin.php:143
+msgid "Settings"
+msgstr "Nastavitve"
+
+#: includes/class.evdpl-woocompare-admin.php:121
+msgid "License"
+msgstr ""
+
+#: includes/class.evdpl-woocompare-admin.php:147
+msgid "Premium Version"
+msgstr "Premium verzija"
+
+#: includes/class.evdpl-woocompare-admin.php:153
+#, fuzzy
+msgctxt "Admin Plugin Name"
+msgid "WooCommerce Compare"
+msgstr "Products Compare for WC vtiÄ?nik"
+
+#: includes/class.evdpl-woocompare-admin.php:154
+#, fuzzy
+msgctxt "Admin Plugin Name"
+msgid "Compare"
+msgstr "Primerjaj"
+
+#: includes/class.evdpl-woocompare-admin.php:243
+msgid "Products Compare for WC Activated"
+msgstr "Products Compare for WC aktiviran"
+
+#: includes/class.evdpl-woocompare-admin.php:244
+msgid ""
+"In the EVDPL Plugin tab you can find the Products Compare for WC options. "
+"With this menu, you can access to all the settings of our plugins that you "
+"have activated. Products Compare for WC is available in an outstanding "
+"PREMIUM version with many new options, <a href=\"%s\">discover it now</a>."
+msgstr ""
+"V EVDPL Plugin zavihku lahko najdete vse moÅ¾nosti Products Compare for WC. S "
+"tem menijem lahko dostopate do vseh nastavitev vtiÄ?nikov, ki ste jih "
+"aktivirali.  Products Compare for WC je na voljo v izjemni Premium "
+"razliÄ?ici z velko novih moÅ¾nosti, <a href=\"%s\">raziÅ¡Ä?ite jih zdaj</a>."
+
+#: includes/class.evdpl-woocompare-admin.php:255
+msgid "Products Compare for WC Updated"
+msgstr "Products Compare for WC posodobljen"
+
+#: includes/class.evdpl-woocompare-admin.php:256
+msgid ""
+"From now on, you can find all the options of Products Compare for WC under "
+"EVDPL Plugin -> Compare instead of WooCommerce -> Settings -> Compare, as in "
+"the previous version. When one of our plugins is updated, a new voice will "
+"be added to this menu. Products Compare for WC has been updated with new "
+"available options, <a href=\"%s\">discover the PREMIUM version.</a>"
+msgstr ""
+"Od zdaj lahko najdete vse moÅ¾nosti Products Compare for WC pod EVDPL Plugin  -"
+"> Primerjaj namesto WooCommerce  -> Nastavitve -> Primerjaj, tako kot v "
+"prejÅ¡nji razliÄ?ici. Ko posodobimo en vtiÄ?nik, bo nov glas dodan temu meniju. "
+"Products Compare for WC je bil posodobljen z novimi moÅ¾nostmi, <a href=\"%s"
+"\">raziÅ¡Ä?i Premium razliÄ?ico.</a>"
+
+#: includes/class.evdpl-woocompare-admin.php:400
+msgid "Do you want to hard crop the image?"
+msgstr "Trdo obreÅ¾em sliko?"
+
+#: includes/class.evdpl-woocompare-frontend.php:223
+msgid "Added"
+msgstr "Dodano"
+
+#: includes/class.evdpl-woocompare-frontend.php:224 templates/compare.php:50
+msgid "Product Comparison"
+msgstr "Primerjanje izdelkov"
+
+#: includes/class.evdpl-woocompare-frontend.php:227
+#: includes/class.evdpl-woocompare-frontend.php:505
+#: plugin-options/general-options.php:40
+#: widgets/class.evdpl-woocompare-widget.php:51
+msgid "Compare"
+msgstr "Primerjaj"
+
+#: includes/class.evdpl-woocompare-frontend.php:229
+msgctxt "Label for popup close icon"
+msgid "Close"
+msgstr ""
+
+#: includes/class.evdpl-woocompare-frontend.php:384
+msgid "In stock"
+msgstr "Na zalogi"
+
+#: includes/class.evdpl-woocompare-frontend.php:696
+msgid "No products to compare"
+msgstr "Ni izdelkov za primerjavo"
+
+#: includes/class.evdpl-woocompare-frontend.php:709 templates/compare.php:119
+msgid "Remove"
+msgstr "Odstrani"
+
+#: includes/class.evdpl-woocompare-helper.php:46
+msgid "Image"
+msgstr "Slika"
+
+#: includes/class.evdpl-woocompare-helper.php:47
+#: widgets/class.evdpl-woocompare-widget.php:68
+msgid "Title"
+msgstr "Naslov"
+
+#: includes/class.evdpl-woocompare-helper.php:48
+msgid "Price"
+msgstr "Cena"
+
+#: includes/class.evdpl-woocompare-helper.php:49
+msgid "Add to cart"
+msgstr "Dodaj v koÅ¡arico"
+
+#: includes/class.evdpl-woocompare-helper.php:50
+msgid "Description"
+msgstr "Opis"
+
+#: includes/class.evdpl-woocompare-helper.php:51
+msgid "Sku"
+msgstr ""
+
+#: includes/class.evdpl-woocompare-helper.php:52
+msgid "Availability"
+msgstr "RazpoloÅ¾ljivost"
+
+#: includes/class.evdpl-woocompare-helper.php:53
+msgid "Weight"
+msgstr ""
+
+#: includes/class.evdpl-woocompare-helper.php:54
+msgid "Dimensions"
+msgstr ""
+
+#: init.php:42
+msgid ""
+"Products Compare for WC is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr "Products Compare for WC je omogoÄ?en toda ne deluje brez WooCommerca."
+
+#: init.php:50
+msgid ""
+"You can't activate the free version of Products Compare for WC while you "
+"are using the premium one."
+msgstr ""
+"Ne morete aktivirati brezplaÄ?ne razliÄ?ice Products Compare for WC, medtem "
+"ko uporabljate Premium razliÄ?ico."
+
+#: plugin-options/general-options.php:17
+msgid "General Settings"
+msgstr "SploÅ¡ne nastavitve"
+
+#: plugin-options/general-options.php:24
+msgid "Link or Button"
+msgstr "Besedilo povezave ali gumba"
+
+#: plugin-options/general-options.php:25
+#, fuzzy
+msgid "Choose if you want to use a link or a button for the comepare actions."
+msgstr "Izberi ali Å¾eliÅ¡ uporabiti povezava ali gumb za gumb dejanja."
+
+#: plugin-options/general-options.php:31
+msgid "Link"
+msgstr "Povezava"
+
+#: plugin-options/general-options.php:32
+msgid "Button"
+msgstr "Gumb"
+
+#: plugin-options/general-options.php:37
+msgid "Link/Button text"
+msgstr "Besedilo povezave ali gumba"
+
+#: plugin-options/general-options.php:38
+msgid "Type the text to use for the button or the link of the compare."
+msgstr ""
+"Vnesite besedilo, ki bo uporabljeno za gumb ali povezavo za primerjavo."
+
+#: plugin-options/general-options.php:45
+msgid "Show button in single product page"
+msgstr "PokaÅ¾i gumb na strani posameznega izdelka"
+
+#: plugin-options/general-options.php:46
+msgid "Say if you want to show the button in the single product page."
+msgstr "Izberi, Ä?e Å¾eliÅ¡ pokazati gumb na strani posameznega izdelka."
+
+#: plugin-options/general-options.php:53
+msgid "Show button in products list"
+msgstr "PokaÅ¾i gumb v seznamu izdelkov"
+
+#: plugin-options/general-options.php:54
+msgid "Say if you want to show the button in the products list."
+msgstr "Izberi, Ä?e Å¾eliÅ¡ pokazati gumb na seznamu izdelkov."
+
+#: plugin-options/general-options.php:61
+msgid "Open automatically lightbox"
+msgstr "AvtomatiÄ?no odpri lightbox"
+
+#: plugin-options/general-options.php:62
+msgid "Open link after click into \"Compare\" button\"."
+msgstr "Odpri povezavo po kliku na gumb  \"Primerjaj\" ."
+
+#: plugin-options/general-options.php:74
+msgid "Table Settings"
+msgstr "Nastavitve table"
+
+#: plugin-options/general-options.php:81
+msgid "Table title"
+msgstr "Naslov tabele"
+
+#: plugin-options/general-options.php:82
+msgid "Type the text to use for the table title."
+msgstr "VpiÅ¡i besedilo, ki bo uporabljeno za naslov tabele."
+
+#: plugin-options/general-options.php:84 templates/compare.php:22
+msgid "Compare products"
+msgstr "Primerjaj izdelke"
+
+#: plugin-options/general-options.php:89
+msgid "Fields to show"
+msgstr "Polja za prikaz"
+
+#: plugin-options/general-options.php:90
+msgid ""
+"Select the fields to show in the comparison table and order them by "
+"drag&drop (are included also the woocommerce attributes)"
+msgstr ""
+"Izberi polja za prikaz v primerjalni tabeli in jih razvrsti s povleci&spusti "
+"(vkljuÄ?ene so tudi moÅ¾nosti woocommerce)"
+
+#: plugin-options/general-options.php:97
+msgid "Repeat \"Price\" field"
+msgstr "Ponovi polje \"Cena\""
+
+#: plugin-options/general-options.php:98
+msgid "Repeat the \"Price\" field at the end of the table"
+msgstr "Ponovi polje \"Cena\" na koncu tabele"
+
+#: plugin-options/general-options.php:105
+msgid "Repeat \"Add to cart\" field"
+msgstr "Ponovi \"Dodaj v koÅ¡arico\" polje"
+
+#: plugin-options/general-options.php:106
+msgid "Repeat the \"Add to cart\" field at the end of the table"
+msgstr "Ponovi polje \"Dodaj v koÅ¡arico\" na koncu tabele"
+
+#: plugin-options/general-options.php:113
+msgid "Image size"
+msgstr "Velikost slike"
+
+#: plugin-options/general-options.php:114
+msgid "Set the size for the images"
+msgstr "Nastavi velikost slik"
+
+#: templates/compare.php:77
+msgid "Close window [X]"
+msgstr "Zapri okno [X]"
+
+#: templates/compare.php:107
+msgid "No products added in the compare table."
+msgstr "V tabeli za primerjanje ni dodanih izdelkov."
+
+#: widgets/class.evdpl-woocompare-widget.php:23
+#, fuzzy
+msgid "The widget shows the list of products added in the comparison table."
+msgstr "VtiÄ?nik prikaÅ¾e seznam izdelkov, dodanih v tabelo za primerjavo."
+
+#: widgets/class.evdpl-woocompare-widget.php:27
+#, fuzzy
+msgid "Products Compare for WC Widget"
+msgstr "Products Compare for WC vtiÄ?nik"
+
+#: widgets/class.evdpl-woocompare-widget.php:50
+msgid "Clear all"
+msgstr "PoÄ?isti vse"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "Products Compare for WC"
+msgstr "Products Compare for WC vtiÄ?nik"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpenv1.evdpl.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The <code><strong>Products Compare for WC</strong></code> plugin allow you "
+"to compare in a simple and efficient way products on sale in your shop and "
+"analyze their main features in a single table. <a href=\"https://evincedev."
+"com/\" target=\"_blank\">Get more plugins for your e-commerce shop on "
+"<strong>EVDPL</strong></a>."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "EVDPL"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://evincedev.com/"
+msgstr ""
+
+#~ msgid "Plugin Documentation"
+#~ msgstr "Dokumentacija vtiÄ?nika"
